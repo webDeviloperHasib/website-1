@@ -1,0 +1,198 @@
+.ulcontrol{
+    border-bottom: none !important;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 15px;
+}
+
+.ulcontrol i{
+    color: black;
+    font-size: 20px;
+}
+.ulcontrol li:hover i{
+    color: orangered;
+}
+.mainnav ul li a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.mainnav ul li{
+    padding: 8px;
+}
+
+.mainnav ul li:hover a{
+    color:orangered;
+}
+
+/* .................. content Section ........................... */
+
+.bg{
+    background-color: rgb(255, 255, 255 ,.4);
+    width: 100%;
+    height: 190px;
+    margin-left: -125px;
+    margin-bottom: -20px;
+    padding: 15px;
+    padding-bottom: 25px;
+}
+
+.beauty{
+    background-color: rgb(255, 255, 255, .5);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-80px;
+    position:relative;
+}
+.subimg img{
+    height: 230px;
+}
+
+.beauty:hover{
+    background-color: rgb(255, 255, 255, .8);
+}
+
+.mywidimg{
+    width: 60px;
+    height: 60px; 
+    border-radius: 50%;
+    border: 3px solid rgb(0, 0, 0,.3);
+}
+.spanimg{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background: url('../images/Never\ Lose\ INfinite\ Hope\ widgets.jpg');
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* ................Footer Section...................  */
+
+.circle-div{
+    width: 40px;
+    height: 40px;
+    border-radius:50% ;
+    background-color:rgb(255, 0, 0,.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.circle-divv{
+    width: 40px;
+    height: 40px;
+    border-radius:50% ;
+    background-color:rgb(0, 0, 0,.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 4px solid hotpink;
+    margin-top: 18px; 
+}
+
+.margin-row{
+    margin-left: -85px !important;
+}
+
+.button{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sign-up{
+    border: 1px solid rgb(0, 0, 0,.3);
+    padding: 16px;
+    padding-top: 10px;
+}
+
+.icon-div{
+    width: 10px;
+    padding: 0;
+    margin: 0;
+    margin-top: 14px;
+    border-radius: 50%;
+    height: 30px;
+    margin-right: 5px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.icon-1{
+    background-color: #1DA1F2;
+}
+.icon-2{
+    background-color: #EA4434;
+}
+.icon-3{
+    background-color: #1778F2;
+}
+.icon-4{
+    background-color: #0D66C2;
+}
+.icon-5{
+    background-color: #F00075;
+}
+.icon-6{
+    background-color: #000000;
+}
+.icon-7{
+    background-color: #4680C2;
+}
+
+.footer-last{
+    width: 100%;
+    height: 120px;
+    background-color: #000000;
+}
+.icon-column{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-column i{
+   padding-left: 10px;
+   padding-right: 10px;
+   font-size: 22px;
+}
+
+
+.middle-about{
+    width: 870px;
+    margin: auto;
+}
+
+.div-hr{
+    width: 98%;
+    margin: auto;
+    height: 5px;
+    background-color: black;
+}
+
+.con{
+    width: 860px;
+    margin: auto;
+}
+
+
+.form-contact input{
+   
+}
+
+.form-contact label{
+    margin-top: 5px;
+}
